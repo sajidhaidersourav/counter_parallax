@@ -1,0 +1,68 @@
+.section{
+    margin-bottom: 50px;
+}
+/* headr strat */
+header{
+    padding: 10px 0px;
+    background-color: whitesmoke;
+}
+.logo{
+    font-weight: 700;
+}
+.menu ul li{
+    padding: 0px 20px;
+}
+.menu ul li a{
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.menu ul li a:hover{
+    color: green;
+    text-shadow: 0px 0px 2px green;
+}
+.active{
+    color: red !important;
+    text-shadow: 0px 0px 2px red;
+}
+.active:hover{
+    text-shadow: 0px 0px 2px red !important;
+}
+/* headr end */
+.counter_up{
+    padding: 30px 0px;
+}
+.cm_h2{
+    padding: 20px 0px 40px;
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.cm_h2:hover{
+    color: red;
+}
+.box{
+    padding: 50px 0px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.c_h2{
+    padding: 0px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+.c_span{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.c_box{
+    background-color: white;
+    color: black;
+}
